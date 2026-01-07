@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT PICKER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">
+                <div class="logo-mark">PP</div>
+                <div class="logo-text">Project Picker</div>
+            </div>
+
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">Accueil</a>
+                <a href="nouveau-projet.html" class="nav-link">Proposer un projet</a>
+                <a href="mes-projet.html" class="nav-link">Mes projets</a>
+                <a href="connexion.html" class="nav-link">Connexion</a>
+            </nav>
+        </div>
+    </header> 
+    
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Découvrez les projets étudiants</h1>
+                <p class="subtile">Votez pour les meilleurs idées</p>
+            </div>
+        </section>
+
+        <section class="projet container">
+            <div class="projet-header">
+                <h2>Projet Proposé</h2>
+                <div class="filters">
+                    <button class="filter ghost">Plus récents</button>
+                    <button class="filter ghost">Plus votés</button>
+                </div>
+            </div>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <h3>Application de gestion des notes</h3>
+                    <div class="meta">
+                        <span class="meta-item">Pierre Dupont</span>
+                        <span class="meta-item">15 nov 2025</span>
+                    </div>
+                    <p class="card-desc">
+                        Une application web permettant aux étudiants de suivre leurs notes et moyennes par matière.
+                    </p>
+                    <div class="card-bottom">
+                        <div class="votes"><span class="heart">❤</span> 28 votes</div>
+                        <a class="btn" href="detail-gestion-note.html">Voir détails</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Application de gestion de stage</h3>
+                    <div class="meta">
+                        <span class="meta-item">Lucas Morel</span>
+                        <span class="meta-item">18 oct 2025</span>
+                    </div>
+                    <p class="card-desc">
+                        Application web permettant aux étudiants de suivre et organiser leurs candidatures de stage de manière simple et efficace. 
+                    </p>
+                    <div class="card-bottom">
+                        <div class="votes"><span class="heart">❤</span> 43 votes</div>
+                        <a href="detail-gestion-stage.html" class="btn">Voir détails</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Système de réservation pour association étudiante</h3>
+                    <div class="meta">
+                        <span class="meta-item">Emma Lefèvre </span>
+                        <span class="meta-item">05 déc 2025</span>
+                    </div>
+                    <p class="cars-desc">
+                        Plateforme de réservation en ligne pour gérer les salles, équipements et créneaux d'une association étudiante. 
+                    </p>
+                    <div class="card-bottom">
+                        <div class="votes"><span class="heart">❤</span> 26 votes</div>
+                        <a href="detail-reserve-asso.html" class="btn">voir détails</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Planning de révision</h3>
+                    <div class="meta">
+                        <span class="meta-item">Sophie Durant</span>
+                        <span class="meta-item">8 nov 2025</span>
+                    </div>
+                    <p class="card-desc">
+                        Application pour organiser et planifier ces révision avec des rappels automatiques.
+                    </p>
+                    <div class="card-bottom">
+                        <div class="votes"><span class="heart"></span>19 votes</div>
+                        <a href="detail-planning-revision.html" class="btn">Voir détails</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Générateur de CV et portfolio en ligne</h3>
+                    <div class="meta">
+                        <span class="meta-item">Nathan Girard</span>
+                        <span class="meta-item">02 jan 2026</span>
+                    </div>
+                    <p class="card-desc">
+                        Outil en ligne permettant de créer facilement un CV professionnel et un portfolio personnalisé. 
+                    </p>
+                    <div class="card-bottom">
+                        <div class="votes"><span class="heart"></span>32 votes</div>
+                        <a href="detail-generateur-cv.html" class="btn">Voir détails</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

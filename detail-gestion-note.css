@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background: #fafafa;
+  color: #1f2937;
+}
+
+.header {
+  height: 64px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.logo span {
+  color: #6c63ff;
+}
+
+.header nav {
+  display: flex;
+  gap: 28px;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.header nav a.active {
+  color: #6c63ff;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.project-card {
+  width: 760px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 42px 48px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.project-card h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 26px;
+}
+
+.meta span {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.votes {
+  background: #f97316;
+  color: #ffffff !important;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #f1f5f9;
+  margin: 26px 0;
+}
+
+.content p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #374151;
+  margin-bottom: 18px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 12px;
+}
+
+button {
+  height: 48px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-vote {
+  background: #f97316;
+  color: #ffffff;
+  border: none;
+  padding: 0 28px;
+  box-shadow: 0 6px 14px rgba(249, 115, 22, 0.3);
+}
+
+.btn-back {
+  background: #ffffff;
+  border: 2px solid #6c63ff;
+  color: #6c63ff;
+  padding: 0 26px;
+}
+
+.footer {
+  text-align: center;
+  padding: 22px 0;
+  font-size: 14px;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+}
+
+.site-header {
+  background: white;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #ede9ff;
+  color: var(--primary);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  gap: 26px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+}
+
+.nav-link.active {
+  color: var(--primary);
+  font-weight: 600;
+}
